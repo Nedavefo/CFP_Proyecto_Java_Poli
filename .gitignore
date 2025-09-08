@@ -1,0 +1,9 @@
+# Java / builds
+bin/
+*.class
+
+# VS Code
+.vscode/
+
+# Archivos generados por el programa
+data/

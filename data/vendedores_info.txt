@@ -1,0 +1,12 @@
+TI;3591138088;Gabriela;Ramírez Ramírez
+TI;6999491512;Sofía;Castro Sánchez
+CE;1989270464;Mateo;Romero García
+CC;9113726444;Camila;García Hernández
+TI;7106128501;Camila;Díaz Vargas
+TI;6195145763;María;Martínez Ramírez
+CC;7059764337;Sebastián;Castro Castro
+PP;8636864115;Valentina;Gómez Díaz
+TI;3349169637;Juan;Vargas Castro
+CC;7673321532;Samuel;Ramírez Rodríguez
+CE;2496011569;Santiago;Pérez Rojas
+CC;7708416995;Ana María;Romero Castro

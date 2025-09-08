@@ -1,0 +1,50 @@
+P001;Pistola de Pintura;325,91
+P002;Compresor Portátil;129,70
+P003;Linterna LED;163,94
+P004;Pistola de Pintura Pro;182,36
+P005;Llave de Impacto;185,22
+P006;Taladro Inalámbrico;492,18
+P007;Destornillador Eléctrico;286,91
+P008;Sierra Caladora Plus;19,04
+P009;Nivel Láser;47,15
+P010;Motosierra;27,93
+P011;Pulidora;38,95
+P012;Multímetro Digital;157,53
+P013;Amoladora Angular Plus;39,09
+P014;Taladro Inalámbrico;258,07
+P015;Sierra Caladora;201,17
+P016;Hidrolavadora;24,07
+P017;Sierra Circular;79,81
+P018;Pistola de Pintura;97,88
+P019;Hidrolavadora;356,12
+P020;Multímetro Digital;476,39
+P021;Pulidora;351,69
+P022;Juego de Brocas;497,35
+P023;Pistola de Calor Plus;27,09
+P024;Hidrolavadora;312,65
+P025;Cinta Métrica;399,05
+P026;Martillo Demoledor;458,63
+P027;Destornillador Eléctrico;367,74
+P028;Pistola de Calor;132,91
+P029;Hidrolavadora Pro;57,40
+P030;Sierra Circular;486,28
+P031;Hidrolavadora;472,00
+P032;Taladro Inalámbrico;405,62
+P033;Llave de Impacto;432,35
+P034;Lijadora Orbital;168,66
+P035;Lijadora Orbital;166,22
+P036;Nivel Láser;290,42
+P037;Taladro Inalámbrico;42,56
+P038;Linterna LED Plus;124,84
+P039;Motosierra;350,10
+P040;Hidrolavadora;113,16
+P041;Compresor Portátil Plus;489,44
+P042;Cinta Métrica Pro;157,19
+P043;Sierra Caladora;344,78
+P044;Nivel Láser Plus;25,21
+P045;Pistola de Pintura;198,94
+P046;Sierra Caladora;156,14
+P047;Taladro Inalámbrico;243,03
+P048;Pulidora;112,77
+P049;Llave de Impacto;78,71
+P050;Amoladora Angular Plus;178,96

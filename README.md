@@ -97,34 +97,3 @@ ventas_CC_XXXXXXXX.txt (un archivo por vendedor)
  Archivos planos generados correctamente
 
  Clase main (se desarrollará en la Entrega 2)
-
-👨‍💻 Autor
-Tu Nombre
-Politécnico Grancolombiano
-
----
-
-## 🚀 Comandos para subir a GitHub
-
-Copia y ejecuta en la terminal desde la carpeta raíz del proyecto:
-
-```bash
-# 1. Inicializa git
-git init
-
-# 2. Añade todo al staging
-git add .
-
-# 3. Haz el primer commit
-git commit -m "Entrega 1 - GenerateInfoFiles"
-
-# 4. Crea la rama main
-git branch -M main
-
-# 5. Conecta con el repositorio en GitHub
-git remote add origin https://github.com/TUUSUARIO/VentasModulo.git
-
-# 6. Sube el proyecto
-git push -u origin main
-⚠️ Reemplaza https://github.com/TUUSUARIO/VentasModulo.git con la URL de tu propio repositorio en GitHub.
-

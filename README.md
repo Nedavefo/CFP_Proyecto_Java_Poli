@@ -1,99 +1,44 @@
-# Java
-*.class
-*.jar
-*.war
-*.ear
+# Sales Module – Test Data Generator (Java)
 
-# VS Code
-.vscode/
-.settings/
-.classpath
-.project
+Java project for the *Object-Oriented Programming* course at **Politécnico Grancolombiano**.
 
-# Eclipse
-bin/
-tmp/
+The `GenerateInfoFiles` class creates pseudo-random flat files that later feed a sales-reporting system:
 
-# Sistema operativo
-.DS_Store
-Thumbs.db
+| File | Contents |
+|---|---|
+| `productos.txt` | Product ID, name and price |
+| `vendedores_info.txt` | Salesperson document type, document number, first and last name |
+| `ventas_{DocType}_{Number}.txt` | One file per salesperson with the products they sold and quantities |
 
-# Archivos generados
-/data/
-📄 Archivo: README.md
-También en la raíz de tu proyecto.
+Generation uses a **fixed seed**, so every run produces the same data set and results are reproducible. The defaults are 50 products and 12 salespeople, with 5 to 25 sale lines each.
 
-markdown
-Copy code
-# Proyecto Módulo - Entrega 1
-**Institución:** Politécnico Grancolombiano  
-**Curso:** Programación Orientada a Objetos (Java)  
-**Entrega 1 (Semana 3):** Clase `GenerateInfoFiles`
+## Project structure
 
----
+```
+src/edu/poli/modulo/GenerateInfoFiles.java   # Data generator
+data/                                        # Generated files (sample output committed)
+```
 
-## 📌 Descripción
-Este proyecto genera **archivos de prueba pseudoaleatorios** para el sistema de ventas.  
-La clase principal `GenerateInfoFiles` se encarga de crear:
+## Requirements
 
-- `productos.txt` → Lista de productos con ID, nombre y precio.  
-- `vendedores_info.txt` → Lista de vendedores con tipo y número de documento, nombres y apellidos.  
-- `ventas_{TipoDoc}_{Numero}.txt` → Un archivo de ventas por cada vendedor, con el detalle de productos vendidos.  
+- Java JDK 8 or newer
 
-Los archivos se guardan en la carpeta `data/` en la raíz del proyecto.
+## Run
 
----
-
-## 📂 Estructura del proyecto
-VentasModulo/
-├─ src/
-│ └─ edu/
-│ └─ poli/
-│ └─ modulo/
-│ └─ GenerateInfoFiles.java
-├─ bin/ # Archivos compilados .class
-├─ data/ # Archivos generados automáticamente
-├─ .gitignore
-└─ README.md
-
----
-
-## ⚙️ Requisitos
-- **Java JDK 8 (1.8)**  
-- **VS Code** con la extensión *Extension Pack for Java*  
-  (o Eclipse IDE for Java Developers).  
-
----
-
-## ▶️ Ejecución
-
-### 
-1. Compilar
 ```bash
 javac -d bin src/edu/poli/modulo/GenerateInfoFiles.java
-2. Ejecutar
-bash
-Copy code
 java -cp bin edu.poli.modulo.GenerateInfoFiles
-3. Resultado esperado
-En consola:
+```
 
-bash
-Copy code
+Expected console output:
+
+```
 == GENERACION DE ARCHIVOS DE PRUEBA ==
-Archivos generados en: .../VentasModulo/data
+Archivos generados en: .../data
 Generación finalizada exitosamente.
-En la carpeta data/:
+```
 
-productos.txt
+## Status
 
-vendedores_info.txt
-
-ventas_CC_XXXXXXXX.txt (un archivo por vendedor)
-
-✅ Estado de la entrega
- Clase GenerateInfoFiles implementada
-
- Archivos planos generados correctamente
-
- Clase main (se desarrollará en la Entrega 2)
+- [x] Delivery 1: test-data generator (`GenerateInfoFiles`)
+- [ ] Delivery 2: report generation (`main` class)

@@ -8,6 +8,7 @@ import java.math.RoundingMode;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -40,7 +41,8 @@ public class GenerateInfoFiles {
     private static final long SEED = 20250907L;
 
     /** Formateador de precios a dos decimales. */
-    private static final DecimalFormat PRICE_FMT = new DecimalFormat("0.00");
+    private static final DecimalFormat PRICE_FMT =
+            new DecimalFormat("0.00", DecimalFormatSymbols.getInstance(new Locale("es", "CO")));
 
     static {
         PRICE_FMT.setRoundingMode(RoundingMode.HALF_UP);

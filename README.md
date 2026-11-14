@@ -1,5 +1,7 @@
 # Sales Module – Test Data Generator (Java)
 
+[![Build](https://github.com/Nedavefo/CFP_Proyecto_Java_Poli/actions/workflows/build.yml/badge.svg)](https://github.com/Nedavefo/CFP_Proyecto_Java_Poli/actions/workflows/build.yml)
+
 Java project for the *Object-Oriented Programming* course at **Politécnico Grancolombiano**.
 
 The `GenerateInfoFiles` class creates pseudo-random flat files that later feed a sales-reporting system:
@@ -37,6 +39,10 @@ Expected console output:
 Archivos generados en: .../data
 Generación finalizada exitosamente.
 ```
+
+## Continuous integration
+
+On every push, GitHub Actions compiles the project, runs the generator and checks that the output matches the committed sample in `data/`, so any change that breaks reproducibility fails the build.
 
 ## Status
 
